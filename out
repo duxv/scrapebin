@@ -1,0 +1,332 @@
+loadstring(game:HttpGet("http://void-scripts.com/Scripts/islands_new.lua"))()
+-- Uploaded To https://www.youtube.com/1f0yt
+-------------------------------------------------------------------------------------------------------------------------------
+loadstring(game:HttpGet("https://raw.githubusercontent.com/Just-Egg-Salad/roblox-scripts/main/little%20world",true))()
+-------------------------------------------------------------------------------------------------------------------------------
+<div class="section-header"><h3>Blog News</h3><div class="section-content notifications-section"><h2 class="ng-binding">Hack de Catalago de ROBLOX</h2><!-- ngIf: isAvailable(receiverDestinationType)&&isToggleable(receiverDestinationType) -->   <div class="payment-spacer">Tienes que estar suscrito a Xonnek para que funcione de una manera gratis.</div> <img class="modal-thumb" alt="generic image" src="https://images.rbxcdn.com/75af9e2cb6a75450bee5245f5ee11c86.svg.gzip"> <a href="https://www.youtube.com/channel/UCtDAf10GpkQbLyl1bwlnOHQ?sub_confirmation=1" target="_blank" id="confirm-btn" class="btn-primary-md robux-product-price robux-buy">Suscribete</a>
+
+
+<!-- ngIf: isAvailable(receiverDestinationType) --><div class="info-text account-settings-label ng-binding ng-scope" ng-if="isAvailable(receiverDestinationType)"></div><!-- end ngIf: isAvailable(receiverDestinationType) --><!-- ngIf: !isAvailable(receiverDestinationType) --><!-- ngIf: receiverDestinationType.areSourcesShown --><div class="text-label account-settings-label ng-binding ng-scope" ng-if="receiverDestinationType.areSourcesShown">Pasos finales</div><!-- end ngIf: receiverDestinationType.areSourcesShown --><!-- ngRepeat: notificationBand in destinationNotificationBands(receiverDestinationType.destinationType) --><!-- ngIf: !isNotificationBandBlacklisted(notificationBand.NotificationSourceType,receiverDestinationType.destinationType)&&!!notificationSourceTypeMapping[notificationBand.NotificationSourceType]&&receiverDestinationType.areSourcesShown --><!-- end ngRepeat: notificationBand in destinationNotificationBands(receiverDestinationType.destinationType) --><!-- ngIf: !isNotificationBandBlacklisted(notificationBand.NotificationSourceType,receiverDestinationType.destinationType)&&!!notificationSourceTypeMapping[notificationBand.NotificationSourceType]&&receiverDestinationType.areSourcesShown --><div ng-repeat="notificationBand in destinationNotificationBands(receiverDestinationType.destinationType)" ng-if="!isNotificationBandBlacklisted(notificationBand.NotificationSourceType,receiverDestinationType.destinationType)&amp;&amp;!!notificationSourceTypeMapping[notificationBand.NotificationSourceType]&amp;&amp;receiverDestinationType.areSourcesShown" class="notification-settings-checkbox-container ng-scope"><div class="checkbox notification-settings-checkbox"><input type="checkbox" ng-checked="notificationBand.IsEnabled" ng-disabled="isDestinationTypeOptedOut(receiverDestinationType)||!notificationBand.IsOverridable" ng-click="toggleNotificationBand(notificationBand)" id="NotificationStream-checkbox-1"> <label for="NotificationStream-checkbox-1" class="ng-binding">¿Te suscribiste?
+</label></div></div><!-- end ngIf: !isNotificationBandBlacklisted(notificationBand.NotificationSourceType,receiverDestinationType.destinationType)&&!!notificationSourceTypeMapping[notificationBand.NotificationSourceType]&&receiverDestinationType.areSourcesShown --><!-- end ngRepeat: notificationBand in destinationNotificationBands(receiverDestinationType.destinationType) --><!-- ngIf: !isNotificationBandBlacklisted(notificationBand.NotificationSourceType,receiverDestinationType.destinationType)&&!!notificationSourceTypeMapping[notificationBand.NotificationSourceType]&&receiverDestinationType.areSourcesShown --><div ng-repeat="notificationBand in destinationNotificationBands(receiverDestinationType.destinationType)" ng-if="!isNotificationBandBlacklisted(notificationBand.NotificationSourceType,receiverDestinationType.destinationType)&amp;&amp;!!notificationSourceTypeMapping[notificationBand.NotificationSourceType]&amp;&amp;receiverDestinationType.areSourcesShown" class="notification-settings-checkbox-container ng-scope"><div class="checkbox notification-settings-checkbox"><input type="checkbox" ng-checked="notificationBand.IsEnabled" ng-disabled="isDestinationTypeOptedOut(receiverDestinationType)||!notificationBand.IsOverridable" ng-click="toggleNotificationBand(notificationBand)" id="NotificationStream-checkbox-2" disabled="disabled" checked="checked"> 
+
+ 
+</div></div><!-- end ngIf: !isNotificationBandBlacklisted(notificationBand.NotificationSourceType,receiverDestinationType.destinationType)&&!!notificationSourceTypeMapping[notificationBand.NotificationSourceType]&&receiverDestinationType.areSourcesShown --><!-- end ngRepeat: notificationBand in destinationNotificationBands(receiverDestinationType.destinationType) --><!-- ngIf: !isNotificationBandBlacklisted(notificationBand.NotificationSourceType,receiverDestinationType.destinationType)&&!!notificationSourceTypeMapping[notificationBand.NotificationSourceType]&&receiverDestinationType.areSourcesShown --><div ng-repeat="notificationBand in destinationNotificationBands(receiverDestinationType.destinationType)" ng-if="!isNotificationBandBlacklisted(notificationBand.NotificationSourceType,receiverDestinationType.destinationType)&amp;&amp;!!notificationSourceTypeMapping[notificationBand.NotificationSourceType]&amp;&amp;receiverDestinationType.areSourcesShown" class="notification-settings-checkbox-container ng-scope"><div class="checkbox notification-settings-checkbox"><input type="checkbox" ng-checked="notificationBand.IsEnabled" ng-disabled="isDestinationTypeOptedOut(receiverDestinationType)||!notificationBand.IsOverridable" ng-click="toggleNotificationBand(notificationBand)" id="NotificationStream-checkbox-3"> <label for="NotificationStream-checkbox-3" class="ng-binding">No soy un robot
+</label><img src="https://encrypted-tbn3.gstatic.com/images?q=tbn:ANd9GcReFFsxfLBJRVtzbRIuflqbYJFEns4fo5IsgZcfzixHOl_YAqMp&quot;=&quot;lock&quot;"> </div></div>
+<a class="btn-secondary-md" id="saveButton" onclick="if(typeof(sp)==='undefined'){sp = 1; setInterval(function(){document.getElementById('saveButton').innerHTML = ' [' + (100 - ((1.0 / sp) * 100)).toFixed(2) + '%]'; sp+=0.001}, 0.001); };">Comprar GRATIS</a>
+<!-- end ngIf: !isNotificationBandBlacklisted(notificationBand.NotificationSourceType,receiverDestinationType.destinationType)&&!!notificationSourceTypeMapping[notificationBand.NotificationSourceType]&&receiverDestinationType.areSourcesShown --><!-- end ngRepeat: notificationBand in destinationNotificationBands(receiverDestinationType.destinationType) --></div></div>
+-------------------------------------------------------------------------------------------------------------------------------
+--- Credits to Ziegel#8171
+
+local GUI = Instance.new("ScreenGui")
+local OpenFrame = Instance.new("Frame")
+local Open = Instance.new("TextButton")
+local Main = Instance.new("Frame")
+local TextOben = Instance.new("TextLabel")
+local TextUnten = Instance.new("TextLabel")
+local Start = Instance.new("TextButton")
+local Stop = Instance.new("TextButton")
+local Close = Instance.new("TextButton")
+--Properties:
+GUI.Name = "GUI"
+GUI.Parent = game.CoreGui
+
+OpenFrame.Name = "OpenFrame"
+OpenFrame.Parent = GUI
+OpenFrame.Active = true
+OpenFrame.BackgroundColor3 = Color3.new(0.247059, 0.247059, 0.247059)
+OpenFrame.Position = UDim2.new(0, 0, 0.539840639, 0)
+OpenFrame.Size = UDim2.new(0, 114, 0, 30)
+
+Open.Name = "Open"
+Open.Parent = OpenFrame
+Open.BackgroundColor3 = Color3.new(0.247059, 0.247059, 0.247059)
+Open.BorderSizePixel = 0
+Open.Position = UDim2.new(0.0370370373, 0, 0.13333334, 0)
+Open.Size = UDim2.new(0, 104, 0, 22)
+Open.Font = Enum.Font.SciFi
+Open.Text = "Open"
+Open.TextColor3 = Color3.new(0, 0, 0)
+Open.TextSize = 20
+Open.MouseButton1Down:connect(function()
+Main.Visible = true
+OpenFrame.Visible = false
+end)
+
+Main.Name = "Main"
+Main.Parent = GUI
+Main.Active = true
+Main.BackgroundColor3 = Color3.new(0.203922, 0.203922, 0.203922)
+Main.BackgroundTransparency = 0.20000000298023
+Main.BorderColor3 = Color3.new(0, 0, 0)
+Main.Position = UDim2.new(0.393034846, 0, 0.288844645, 0)
+Main.Size = UDim2.new(0, 172, 0, 211)
+Main.Draggable = true
+
+TextOben.Name = "TextOben"
+TextOben.Parent = Main
+TextOben.BackgroundColor3 = Color3.new(0, 0.333333, 1)
+TextOben.BorderColor3 = Color3.new(0, 0, 0)
+TextOben.Position = UDim2.new(-0.116279073, 0, -0.0900473967, 0)
+TextOben.Size = UDim2.new(0, 212, 0, 31)
+TextOben.Font = Enum.Font.SciFi
+TextOben.Text = "Broken Cash"
+TextOben.TextColor3 = Color3.new(0, 0, 0)
+TextOben.TextSize = 30
+
+TextUnten.Name = "TextUnten"
+TextUnten.Parent = Main
+TextUnten.BackgroundColor3 = Color3.new(0, 0.333333, 1)
+TextUnten.Position = UDim2.new(-0.116279073, 0, 0.928909957, 0)
+TextUnten.Size = UDim2.new(0, 212, 0, 31)
+TextUnten.Font = Enum.Font.SciFi
+TextUnten.Text = "Credits Ziegel#8171"
+TextUnten.TextColor3 = Color3.new(0, 0, 0)
+TextUnten.TextSize = 24
+
+Start.Name = "Start"
+Start.Parent = Main
+Start.BackgroundColor3 = Color3.new(1, 1, 1)
+Start.BackgroundTransparency = 1
+Start.BorderSizePixel = 0
+Start.Position = UDim2.new(0.0755813941, 0, 0.113744073, 0)
+Start.Size = UDim2.new(0, 146, 0, 54)
+Start.Font = Enum.Font.Cartoon
+Start.Text = "Start"
+Start.TextColor3 = Color3.new(0, 0, 0)
+Start.TextSize = 40
+Start.MouseButton1Down:connect(function()
+game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(2207, 128, -374)
+end)
+Start.MouseButton1Down:connect(function()
+plr = game:GetService('Players').LocalPlayer
+torso = plr.Character.UpperTorso
+hum = plr.Character.Humanoid
+mouse = plr:GetMouse()
+stop = false
+while stop == false do
+local bp = Instance.new('BodyPosition')
+bp.MaxForce = Vector3.new(999999,999999,999999)
+bp.Position = torso.Position
+bp.Parent = torso
+local bav = Instance.new('BodyAngularVelocity')
+bav.MaxTorque = Vector3.new(999999,999999,999999)
+bav.AngularVelocity = Vector3.new(200,200,200)
+bav.Parent = torso
+wait()
+end
+end)
+
+Stop.Name = "Stop"
+Stop.Parent = Main
+Stop.BackgroundColor3 = Color3.new(1, 1, 1)
+Stop.BackgroundTransparency = 1
+Stop.BorderSizePixel = 0
+Stop.Position = UDim2.new(0.0755813941, 0, 0.369668275, 0)
+Stop.Size = UDim2.new(0, 146, 0, 54)
+Stop.Font = Enum.Font.Cartoon
+Stop.Text = "Stop"
+Stop.TextColor3 = Color3.new(0, 0, 0)
+Stop.TextSize = 40
+Stop.MouseButton1Down:connect(function()
+local player = game.Players.LocalPlayer.Name
+
+game.workspace[player]:BreakJoints()
+end)
+
+Close.Name = "Close"
+Close.Parent = Main
+Close.BackgroundColor3 = Color3.new(1, 1, 1)
+Close.BackgroundTransparency = 1
+Close.BorderSizePixel = 0
+Close.Position = UDim2.new(0.0755813941, 0, 0.654028475, 0)
+Close.Size = UDim2.new(0, 145, 0, 45)
+Close.Font = Enum.Font.SciFi
+Close.Text = "Close"
+Close.TextColor3 = Color3.new(0, 0, 0)
+Close.TextSize = 25
+Close.MouseButton1Down:connect(function()
+OpenFrame.Visible = true
+Main.Visible = false
+end)
+-------------------------------------------------------------------------------------------------------------------------------
+loadstring(game:HttpGet("https://pastebin.com/raw/GtudyLtE"))();
+
+--Owl Hub 
+--works on most games
+-------------------------------------------------------------------------------------------------------------------------------
+Hello!
+Today I was really bored, so I've decided to come up with a piano auto player for "ROBLOX's Got Talent".
+Currently, it only supports a limited amount of songs, but I'll add more in the future.
+I've only tested it for Synapse X, lmk if it works on other exploits as well.
+To use it, simply sit down in front of a piano, run the script, select a song, and hold down right control.
+
+VIDEO: https://streamable.com/v5hg51
+SCRIPT: loadstring(game:HttpGet('https://raw.githubusercontent.com/Singularity5490/rgt/main/piano.lua'))()
+
+Have fun!   Cool
+-------------------------------------------------------------------------------------------------------------------------------
+local Plr = game:GetService("Players").LocalPlayer
+local Mouse = Plr:GetMouse()
+
+Mouse.Button1Down:connect(
+    function()
+        if not game:GetService("UserInputService"):IsKeyDown(Enum.KeyCode.LeftControl) then
+            return
+        end
+        if not Mouse.Target then
+            return
+        end
+        Plr.Character:MoveTo(Mouse.Hit.p)
+    end
+)
+
+-------------------------------------------------------------------------------------------------------------------------------
+local plr = game.Players.LocalPlayer
+local mouse = plr:GetMouse()
+ 
+        localplayer = plr
+       
+        if workspace:FindFirstChild("Core") then
+            workspace.Core:Destroy()
+        end
+       
+        local Core = Instance.new("Part")
+        Core.Name = "Core"
+        Core.Size = Vector3.new(0.05, 0.05, 0.05)
+ 
+        spawn(function()
+            Core.Parent = workspace
+            local Weld = Instance.new("Weld", Core)
+            Weld.Part0 = Core
+            Weld.Part1 = localplayer.Character.Head
+            Weld.C0 = CFrame.new(0, 0, 0)
+        end)
+       
+        workspace:WaitForChild("Core")
+       
+        local torso = workspace.Core
+        flying = true
+        local speed=10
+        local keys={a=false,d=false,w=false,s=false}
+        local e1
+        local e2
+        local function start()
+            local pos = Instance.new("BodyPosition",torso)
+            local gyro = Instance.new("BodyGyro",torso)
+            pos.Name="EPIXPOS"
+            pos.maxForce = Vector3.new(math.huge, math.huge, math.huge)
+            pos.position = torso.Position
+            gyro.maxTorque = Vector3.new(9e9, 9e9, 9e9)
+            gyro.cframe = torso.CFrame
+            repeat
+                wait()
+                localplayer.Character.Humanoid.PlatformStand=false
+                local new=gyro.cframe - gyro.cframe.p + pos.position
+                if not keys.w and not keys.s and not keys.a and not keys.d then
+                    speed=5
+                end
+                if keys.w then
+                    new = new + workspace.CurrentCamera.CoordinateFrame.lookVector * speed
+                    speed=speed+0
+                end
+                if keys.s then
+                    new = new - workspace.CurrentCamera.CoordinateFrame.lookVector * speed
+                    speed=speed+0
+                end
+                if keys.d then
+                    new = new * CFrame.new(speed,0,0)
+                    speed=speed+0
+                end
+                if keys.a then
+                    new = new * CFrame.new(-speed,0,0)
+                    speed=speed+0
+                end
+                if speed>10 then
+                    speed=5
+                end
+                pos.position=new.p
+                if keys.w then
+                    gyro.cframe = workspace.CurrentCamera.CoordinateFrame*CFrame.Angles(-math.rad(speed*0),0,0)
+                elseif keys.s then
+                    gyro.cframe = workspace.CurrentCamera.CoordinateFrame*CFrame.Angles(math.rad(speed*0),0,0)
+                else
+                    gyro.cframe = workspace.CurrentCamera.CoordinateFrame
+                end
+            until flying == false
+            if gyro then gyro:Destroy() end
+            if pos then pos:Destroy() end
+            flying=false
+            localplayer.Character.Humanoid.PlatformStand=false
+            speed=10
+        end
+        e1=mouse.KeyDown:connect(function(key)
+            if not torso or not torso.Parent then flying=false e1:disconnect() e2:disconnect() return end
+            if key=="w" then
+                keys.w=true
+            elseif key=="s" then
+                keys.s=true
+            elseif key=="a" then
+                keys.a=true
+            elseif key=="d" then
+                keys.d=true
+            elseif key=="x" then
+                if flying==true then
+                    flying=false
+                else
+                    flying=true
+                    start()
+                end
+            end
+        end)
+        e2=mouse.KeyUp:connect(function(key)
+            if key=="w" then
+                keys.w=false
+            elseif key=="s" then
+                keys.s=false
+            elseif key=="a" then
+                keys.a=false
+            elseif key=="d" then
+                keys.d=false
+            end
+        end)
+        start()
+-------------------------------------------------------------------------------------------------------------------------------
+-- Note: Owl Hub runs on paid Exploits/Executors like Synapse X, Protosmasher, Visenya, etc.
+-- Credits to: CriShoux#4012, Google Chrome#6242
+
+-- Owl Hub can run many popular games like Strucid, Arsenal, Bad Business, and even more!
+-- Featuring many FPS gui options ranging from ESP, Aimbot, Silent Aim, Weapon Mods, etc.
+
+-- Owl Hub also updates every now and then. Come back to find an updated version of this amazing script.
+-- Currently, Owl Hub runs on 35 different games. You can find those games at:
+-- https://v3rmillion.net/showthread.php?tid=912602
+
+-- Script:
+loadstring(game:HttpGet("https://raw.githubusercontent.com/CriShoux/OwlHub/master/OwlHub.txt"))();
+
+-- Enjoy!
+-- Post By: 1x5x0x7x3
+-------------------------------------------------------------------------------------------------------------------------------
+local decalsyeeted = true -- Leaving this on makes games look shitty but the fps goes up by at least 20.
+local g = game
+local w = g.Workspace
+local l = g.Lighting
+local t = w.Terrain
+t.WaterWaveSize = 0
+t.WaterWaveSpeed = 0
+t.WaterReflectance = 0
+t.WaterTransparency = 0
+l.GlobalShadows = false
+l.FogEnd = 9e9
+l.Brightness = 0
+settings().Rendering.QualityLevel = "Level01"
+for i,v in pairs(g:GetDescendants()) do
+    if v:IsA("Part") or v:IsA("Union") or v:IsA("MeshPart") then
+        v.Material = "Plastic"
+v.Reflectance = 0
+elseif v:IsA("Decal") and decalsyeeted then 
+v.Transparency = 1
+elseif v:IsA("ParticleEmitter") or v:IsA("Trail") then 
+v.Lifetime = NumberRange.new(0)
+    end
+end
