@@ -27,14 +27,10 @@ def search_links():
 
     results = search(query, stop=results_max, pause=2)
 
-    results = list(results)
+    results = [result for result in results if not "/u/" in result]
 
     for i in range(len(results)):
         results[i] = results[i].replace(".com/", ".com/raw/")
-
-    for i in results:
-        if "/u/" in i:
-            results.remove(i)
 
     output_way = input("Enter the output way (file/console): ")
     if output_way == "file":
