@@ -1,5 +1,7 @@
 # Scrapebin
 
+## A pastebin scraper.
+
 ### You must have Python 3 installed to run it
 
 
